@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+  
+  
+  body {
+    font-family: 'Poppins', sans-serif;}
+
+
+    #front-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto); 
+        gap: 20px; 
+      }
+      
+      #front-page img {
+        width: 100%; 
+        height: auto; 
+      }
+
+      #try-it {
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px; 
+      }
+      
+      #try-it > div {
+        display: flex; 
+        align-items: center; 
+        gap: 10px; 
+      }
+      
+      #try-it img {
+        max-width: 100%; 
+      }
+      
+      #try-it p {
+        margin: 0; }
+
+
+       
+
+
